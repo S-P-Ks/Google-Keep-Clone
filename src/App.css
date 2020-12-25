@@ -1,0 +1,109 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.h-center{
+  background-color: dodgerblue;
+  color: black;
+}
+.header{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.body{
+  width: 90%;
+  height: 95vh;
+  margin: 2px auto;
+}
+.footer{
+  color: aliceblue;
+  text-align: center;
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+
+.createnote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid blue;
+}
+
+form{
+  margin: 20px auto;
+  text-align: center;
+  width:20%;
+}
+
+input{
+  width: 100%;
+  border-radius: 5px;
+  font-size: large;
+  margin-bottom: 5%;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input:focus{
+  border: 5px solid blue;
+}
+textarea{
+  width: 100%;
+  border-radius: 5px;
+  font-size: large;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+textarea:focus{
+  border: 5px solid blue;
+}
+button{
+  width: 100%;
+  padding: 10px;
+  background-color: cornflowerblue;
+  outline: none;
+  color: aliceblue;
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:focus{
+  background-color: blue;
+}
+
+.heart{
+  color: red;
+}
+
+.note{
+  border-radius: 5px;
+  border: 2px solid coral;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  padding: 20px;
+  text-align: center;
+}
+
+h2{
+  border-bottom: 2px solid blue ;
+}
+.note-body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.note{
+  float: left;
+}
+
+.delete{
+  margin-top: 10px;
+}
